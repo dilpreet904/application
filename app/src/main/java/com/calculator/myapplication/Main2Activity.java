@@ -14,5 +14,8 @@ public class Main2Activity extends AppCompatActivity {
         textView2=(TextView)findViewById(R.id.textView2);
         String abc=getIntent().getStringExtra("name");
         textView2.setText(abc);
+        textView3=(TextView)findViewById(R.id.textView3);
+        String var=getIntent().getStringExtra("Id");
+        textView3.setText(var);
     }
 }
